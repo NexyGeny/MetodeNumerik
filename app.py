@@ -15,12 +15,12 @@ st.set_page_config(
     layout="wide",
 )
 # Load file Animasi
-with open("assets/animasi.json") as anim_file:
+with open("assets/Animasi.json") as anim_file:
     anim_data = json.load(anim_file)
 st_lottie(anim_data, speed=1, width=300, height=300)
 
 # Load animasi
-lottie_animation = load_lottie("assets/animasi.json")
+lottie_animation = load_lottie("assets/Animasi.json")
 
 # CSS
 st.markdown("""
