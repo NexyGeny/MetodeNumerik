@@ -70,4 +70,6 @@ def credit():
     - Ale Bayu Prakoso (50422164)
     - Ihsan Ramdani (50422694)
     - Raafi Ferdiansyah (51422308)
+                
+    Terimakasih telah mengunjungi website kami!
     """)
