@@ -60,3 +60,14 @@ def secant():
         hasil, tabel = rumus.secant(x_prev, x_curr, f_x, toleransi)
         st.success(f"Akar ditemukan: {hasil}")
         st.dataframe(pd.DataFrame(tabel))
+
+def credit():
+    st.markdown("""
+    ### Dibuat oleh Kelompok 5 untuk mata kuliah Rekayasa Komputasional.
+    - Abby Rizky Febrian (50422056)
+    - Afwan Apriansyah (50422111)
+    - Akhmal Jannuar Sachrir (50422150)
+    - Ale Bayu Prakoso (50422164)
+    - Ihsan Ramdani (50422694)
+    - Raafi Ferdiansyah (51422308)
+    """)
