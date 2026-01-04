@@ -11,7 +11,7 @@ def load_lottie(filepath: str):
 # Setup page
 st.set_page_config(
     page_title="Metode Numerik | Computer Engineer",
-    page_icon="🗿",
+    page_icon=" ",
     layout="wide",
 )
 
@@ -53,11 +53,11 @@ st.title("Main Menu")
 col_home, col_credit, _ = st.columns([1, 1, 6])
 
 with col_home:
-    if st.button("🏠 Home"):
+    if st.button("Home"):
         st.session_state.page = "home"
 
 with col_credit:
-    if st.button("📕 Credit"):
+    if st.button("Credit"):
         st.session_state.page = "credit"
 
 # Numerical methods section
@@ -66,19 +66,19 @@ st.markdown("### Pilih Metode Numerik:")
 col1, col2, col3 = st.columns(3, gap="small")
 
 with col1:
-    if st.button("🔪 Bisection"):
+    if st.button("Bisection"):
         st.session_state.page = "bisection"
-    if st.button("🎃 Regula Falsi"):
+    if st.button("Regula Falsi"):
         st.session_state.page = "regula_falsi"
 
 with col2:
-    if st.button("🔄 Iterasi Sederhana"):
+    if st.button("Iterasi Sederhana"):
         st.session_state.page = "iterasi_sederhana"
-    if st.button("⚡ Newton Raphson"):
+    if st.button("Newton Raphson"):
         st.session_state.page = "newton_raphson"
 
 with col3:
-    if st.button("➗ Secant"):
+    if st.button("Secant"):
         st.session_state.page = "secant"
 
 # Page content logic
@@ -99,34 +99,34 @@ if 'page' not in st.session_state or st.session_state.page == "home":
         st_lottie(lottie_animation, height=300)
 
 elif st.session_state.page == "bisection":
-    st.header("🔪 Metode Bisection")
+    st.header("Metode Bisection")
     views.bisection()
 
 elif st.session_state.page == "regula_falsi":
-    st.header("🎃 Metode Regula Falsi")
+    st.header("Metode Regula Falsi")
     views.regula_falsi()
 
 elif st.session_state.page == "iterasi_sederhana":
-    st.header("🔄 Metode Iterasi Sederhana")
+    st.header("Metode Iterasi Sederhana")
     views.iterasi_sederhana()
 
 elif st.session_state.page == "newton_raphson":
-    st.header("⚡ Metode Newton Raphson")
+    st.header("Metode Newton Raphson")
     views.newton_raphson()
 
 elif st.session_state.page == "secant":
-    st.header("➗ Metode Secant")
+    st.header("Metode Secant")
     views.secant()
 
 elif st.session_state.page == "credit":
-    st.header("📕 Credit Page")
+    st.header("Credit Page")
     views.credit()
 
 # Footer
 st.markdown("""
     <hr>
     <div style='text-align:center; font-size:14px; color:#fff;'>
-        🌟 Dibuat dengan Streamlit oleh Kelompok 5 | 2025<br>
-        Untuk memenuhi mata kuliah Rekayasa Komputasional 🌟
+        Dibuat dengan Streamlit oleh Kelompok 5 | 2025<br>
+        Untuk memenuhi mata kuliah Rekayasa Komputasional
     </div>
 """, unsafe_allow_html=True)

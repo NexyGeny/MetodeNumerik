@@ -65,11 +65,9 @@ def credit():
     st.markdown("""
     ### Dibuat oleh Kelompok 5 untuk mata kuliah Rekayasa Komputasional.
     - Abby Rizky Febrian (50422056)
-    - Afwan Apriansyah (50422111)
-    - Akhmal Jannuar Sachrir (50422150)
-    - Ale Bayu Prakoso (50422164)
-    - Ihsan Ramdani (50422694)
+    - Bahrul Ilmi Surachman (50422318)
     - Raafi Ferdiansyah (51422308)
+    - Rakha Aribawa (51422372)
                 
     Terimakasih telah mengunjungi website kami!
     """)
