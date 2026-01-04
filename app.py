@@ -126,7 +126,7 @@ elif st.session_state.page == "credit":
 st.markdown("""
     <hr>
     <div style='text-align:center; font-size:14px; color:#fff;'>
-        Dibuat dengan Streamlit oleh Kelompok 3 | 2025<br>
+        Dibuat dengan Streamlit oleh Kelompok 2 | 2025<br>
         Untuk memenuhi mata kuliah Rekayasa Perangkat Lunak
     </div>
 """, unsafe_allow_html=True)
