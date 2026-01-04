@@ -10,7 +10,7 @@ def load_lottie(filepath: str):
 
 # Setup page
 st.set_page_config(
-    page_title="Metode Numerik | Computer Engineer",
+    page_title="Metode Numerik | Software Engineer",
     page_icon=" ",
     layout="wide",
 )
