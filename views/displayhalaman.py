@@ -63,7 +63,7 @@ def secant():
 
 def credit():
     st.markdown("""
-    ### Dibuat oleh Kelompok 3 untuk mata kuliah Rekayasa Perangkat Lunak.
+    ### Dibuat oleh Kelompok 2 untuk mata kuliah Rekayasa Perangkat Lunak.
     - Abby Rizky Febrian (50422056)
     - Bahrul Ilmi Surachman (50422318)
     - Raafi Ferdiansyah (51422308)
